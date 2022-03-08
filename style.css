@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+header{
+  background-color: red;
+}
+header{
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  padding-top: 20px;
+  z-index: 999;
+ text-align: right;
+}
+header .button{
+  padding: 5px;
+  margin-left:10px;
+  margin-right: 10px;
+  width: 2em;
+  height: 2em;
+  border-radius: 100%;
+  border-width: 0;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+}
+.button:active{
+  background-color: gray;
+}
+.container{
+  text-align: center;
+  background-color: red;
+  width: calc(100% -10px);
+  margin: 5px, auto;
+  height: calc(100%-10px);
+ 
+}
+.container.primascarpa h1{
+  color: yellow;
+  font-size: 70px;
+}
+.secondascarpa{
+  background-color: green;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.terzascarpa{
+  background-color: yellow;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.terzascarpa h1{
+  color: green;
+  font-size: 70px;
+}
+.secondascarpa h1{
+ color: yellow;
+ font-size: 70px;
+}
